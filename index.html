@@ -7,6 +7,20 @@
     <script src="./controller.js"> </script>
 </head>
 <body>
-    
+    <div>
+        <button onclick="playGame('Rock')">Rock</button>
+        <button onclick="playGame('Paper')">Paper</button>
+        <button onclick="playGame('Scissors')">Scissors</button>
+    </div>
+    <div>
+        You Chose: <span id="humanChoice"></span><br>
+        Computer Chose: <span id="computerChoice"></span><br>
+        <div id="outcome"></div>
+    </div>
+    <div>
+        <h1>Result</h1>
+        <h2>Player: <span id="humanScore"></span></h2>
+        <h2>Computer: <span id="computerScore"></span></h2>
+    </div>
 </body>
 </html>
